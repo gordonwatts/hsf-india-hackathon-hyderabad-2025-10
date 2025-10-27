@@ -1,2 +1,4 @@
 jupyterlab
 uproot
+pandas
+pyarrow
