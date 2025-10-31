@@ -2,3 +2,9 @@ jupyterlab
 uproot
 pandas
 pyarrow
+awkward
+seaborn
+matplotlib
+vector
+fsspec-xrootd
+xrootd

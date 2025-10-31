@@ -31,3 +31,17 @@ Flat, jagged, ntuple data is written as as series of linear arrays. While this i
 ## Data files
 
 We are using the EIC simulation file `root://dtn-eic.jlab.org//volatile/eic/EPIC/RECO/25.10.0/epic_craterlake/DIS/NC/18x275/minQ2=10/pythia8NCDIS_18x275_minQ2=10_beamEffects_xAngle=-0.025_hiDiv_5.2623.eicrecon.edm4eic.root` for the actual hackathon, but anything from them could be used. It is 170 MB.
+
+## Environment Setup
+
+- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/distribution) if you don't have it already.
+- Create a new conda environment with Python 3.12:
+  ```bash
+  conda create -n my-env python=3.12 -y
+  conda activate my-env
+  ```
+
+- Install the required packages:
+  ```bash
+  pip install -r requirements.txt
+  ```
